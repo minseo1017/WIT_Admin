@@ -7,6 +7,7 @@ import Mypage from './components/Mypage/Mypage'
 import Loading from './commons/Loading/Loading'
 import { useAuthStore } from './store/store'
 import axios from 'axios'
+import { host } from './config/config'
 
 // axios가 요청을 보낼 때 쿠키값을 포함해서 전송하는 설정
 axios.defaults.withCredentials = true
